@@ -34,5 +34,6 @@ debounce = function(func, wait, immediate) {
 	animeScroll();
 	$(document).scroll(debounce(function(){
 		animeScroll();
-	}, 150));
+		console.log('w')
+	}, 100));
 })();

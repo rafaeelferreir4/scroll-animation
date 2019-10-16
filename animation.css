@@ -5,16 +5,22 @@ body {
     align-items: center;
 }
 .anime {
-    background-color: #F41031;
+    background-color: rgba(244, 16, 50, 0.685);
     width: 850px;
     height: 600px;
     margin: 100px auto;
     padding: 1px;
+    border-radius: 7px;
     opacity: 0;
     transform: translate3d(-150px,0,0);
-    transition: .4s;
+    transition: .3s;
 }
 .anime-start {
     opacity: 1;
     transform: translate3d(0,0,0);
+}
+.anime:hover{
+    transform: scale(1.1,1.1);
+    transition: .4s;
+    
 }
